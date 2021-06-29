@@ -30,9 +30,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
 const projectId = 'Place your dialogflow projectId here';
-const phoneNumber = "Place your twilio phone number here";
-const accountSid = 'Place your accountSid here';
-const authToken = 'Place your authToken here';
+const phoneNumber = "+18508100826";
+const accountSid = 'ACf9b33be14c1dbd1b288ccd660f2a2acd';
+const authToken = '68fee9430224bbd7f0d618ed2246c364';
 
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
